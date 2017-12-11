@@ -9,26 +9,46 @@ class Line
   end
 
   def join(person)
+    members.push(person)
+    return members
   end
 
   def leave(person)
+    members.delete(person)
+    return members
   end
 
   def front
+    return members.last
   end
 
   def middle
+    midpoint = (members.length / 2).floor
+    return members[midpoint]
   end
 
   def back
+    return members.first
   end
 
   def search(person)
+    members.each_with_index do |foo, index|
+      if members.include?(person) ==true
+        if foo == person
+          return "#{foo}\'s position in line is #{index}"
+        end
+      end
+    end
   end
 
   private
 
   def index(person)
+    members.each_with_index do |foo, index|
+      if foo == person
+        return index
+      end
+    end
   end
 
 end
