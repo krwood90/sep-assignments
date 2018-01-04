@@ -1,0 +1,87 @@
+1-calculating a tip
+    Get check with meal total
+    Read cost of meal before tax and discounts
+    Compute cost * .2 = tip
+    print tip amount
+
+
+
+2-growing a plant from seed
+    Get seed from fuit, vegetable, or packet
+
+    While seed is from vegetable or fruit
+        Wash the seed of with water
+        Dry the seed
+    EndWhile
+
+    Get pot about 1.5 gallons
+    Get soil
+
+    Repeat  
+        Add soil to the pot
+    Until soil is one inch from the top of the pot
+
+    Subtract one inch of soil from the center of the pot
+    Add the seed to the wher you took the soil out
+    Add soil that you took out on top of the seed
+    Put pot inside next to a window without direct sunlight
+
+    If nothing is sprouting from the soil inside the pot And soil is dry
+        Add some water to the pot 
+        Wait 2 days
+    Else If sprout is under 3 inches
+        Add some water to the pot 
+        Wait 4 days
+    Else
+        Get pot.new about 7 gallons
+        Get soil
+        Repeat  
+            Add soil to the pot.new
+        Until pot.new is 2/3 full
+        Take sprout out of pot with some soil
+        Put sprout inside pot.new in the center
+        Repeat  
+            Add soil to the pot.new
+        Until soil is one inch from the top of the pot .new       
+    End
+
+    Add water to the pot.new
+    Let sprout grow to full plant
+
+
+
+3-making tea
+    Get kettle
+    Add water to kettle
+    Put kettle on stove
+    Turn stove on
+    Get teapot and cups
+    Put teapot and cups on counter
+    Open teapot
+    Get tea leaves
+    Get strainer
+    Put strainer on teapot
+    Put tea leaves in strainer
+
+    If water in teapot is boiling
+        Turn stove off
+        Put thermometer in pot to check temperature
+        If black tea(180 < temperature < 190)
+            Add water to teapot
+        Else If green tea(150 < temperature < 180)
+            Add water to teapot
+        Else If white tea(temperature = 160)
+            Add water to teapot
+        Else
+            Wait for water to reach temperature
+        End
+    Else 
+        Wait for water to boil
+    End
+
+    Add water from teapot to teacups
+    Drink tea
+
+
+
+
