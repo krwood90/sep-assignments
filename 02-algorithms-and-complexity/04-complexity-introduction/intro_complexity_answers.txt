@@ -1,0 +1,76 @@
+1 - Describe an analogy for relating an algorithm that has efficiency O(1) and another algorithm that has O(2n)
+
+    An algorithm that has an efficiency of O(1) is like getting teleported to your destination compared to O(2^n) is having to walk there.
+
+
+2 - In plain English, what is the best case scenario for binary search?
+
+    The best case scenario for a binary search is for the item to be at the first index.
+
+
+3 - In plain English, what is the worst-case scenario for binary search?
+
+    The worst case scenario for a binary search is for the item to be at the last index.
+
+
+4 - In plain English, what is the bounded-case scenario for binary search?
+
+    The bounded-case scenario for a binary search is for the item to be neither at the first or last index but somewhere inbetween.
+
+
+5 - Create a graph using the data below. Here's a CSV with the values you'll need.
+
+    n   |   f(2^n)
+    0       1
+    1       2
+    2       4
+    3       8
+    4       16
+    5       32
+    6       64 
+    7       128
+    8       256
+    9       512
+    10      1024
+
+    https://docs.google.com/spreadsheets/d/11raa_60OXKrWrgmqVmrYdIJldVXNq0kVucX0zStDkfo/edit#gid=0
+
+6 - What is the limit of the function above as n approaches infinity?
+
+    it also approaches infinity
+
+
+7 - What is the Big-O of an algorithm that has the data points above?
+
+    The Big-O is infinity for this algorithm due to it being to the power of n.
+
+
+8 - Write a Ruby method that takes a number n. This method must print the worst-case number of iterations for linear search to find an item in collections of size one to n. Use it to generate a table of worst-case iterations of collections up to size 10.
+
+    def serch_time(n)
+        return 2*n
+    end
+
+
+9 - Create a graph from the output using Google Sheets or other graphing software. Analyze the graph and denote its Big-O somewhere on the graph.
+
+
+
+
+10 - What is the Big-O of binary search?
+
+    O(n)
+
+
+11 - What is the Big-Ω of binary search?
+
+    Ω(1)
+
+
+12 - What is the Big-Ө of binary search?
+
+    Ө(logn)
+
+
+
+
