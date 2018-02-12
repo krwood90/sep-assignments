@@ -21,7 +21,7 @@
 
 
 3 - What's the Big-O of the following algorithm?
-    Answer - O(n) - When it runs the algorithm, it will cycle through the length of the collectiontwice but still in a linear fashion. Although it has two different collections the second one will always run just once to check.
+    Answer - O(n^2) - When it runs the algorithm, it will cycle through the length of the collection and then also run through it for a second time inside the subarray.
 
      def find_largest(collection)
         largest = collection[0][0]
