@@ -26,3 +26,40 @@ def poorly_written_ruby(*arrays)
     # Return the sorted array
     sorted_array
 end
+
+
+# This method takes n arrays as input and combine them in sorted ascending  order
+def well_written_ruby(*arrays)
+    combined_array = []
+
+    arrays.each do |array|
+        combined_array += array
+    end
+
+    return bubble_sort(combined_array)
+end
+ 
+ 
+def bubble_sort(collection)
+    n = collection.length
+
+    loop do
+        swapped = false
+
+        (n - 1).times do [i]
+            if collection[i] > collection[i + 1]
+                tmp = collection[i]
+                collection[i] = collection[i + 1]
+                collection[i + 1] = tmp
+                swapped = true
+            end
+        end
+
+        break if not swapped
+    end
+
+    collection
+end
+
+puts "#{poorly_written_ruby([2,4,1], [3,7], [8,6,5])}"
+puts "#{well_written_ruby([2,4,1], [3,7], [8,6,5])}"

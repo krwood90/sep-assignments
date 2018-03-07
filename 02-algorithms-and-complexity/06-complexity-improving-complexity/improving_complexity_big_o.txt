@@ -1,0 +1,12 @@
+1. The first loop to combine arrays would just be n, but since
+   the loop would reiterate by the nested loop into the sorted 
+   array it would give us n^2. Therefor giving us O(n^2)
+
+2. By using merge sort to save time when changing the coding 
+   and knowing that the time it takes to run is O(log n)and 
+   then implementing it into add n amount of arrays. It gives
+   the time a O(n log n).
+
+3. When using bubble sort for the arrays the space complexity
+   of it is O(1) due to not having to allocate more memory when
+   running this method.
